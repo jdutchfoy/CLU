@@ -1,0 +1,39 @@
+header {
+  background-color: rgb(25, 12, 112);
+  margin: 17px;
+  height:100px;
+}
+
+header img {
+  float:right;
+  margin-top:11px;
+}
+
+nav {
+  width:960px;
+  margin: 0px auto;
+}
+
+header ul {
+  margin-left:25px;
+}
+
+header ul li{
+  margin-top:10px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position:static
+}
+
+nav ul li {
+  margin-left:50px;
+}
+
+main {
+  width:960px;
+  margin:auto;
+}
